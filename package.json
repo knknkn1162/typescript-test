@@ -1,0 +1,25 @@
+{
+  "name": "immut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "dependencies": {
+    "immutable": "^3.8.2",
+    "tslint": "^5.8.0",
+    "tslint-config-airbnb": "^5.4.2"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.4.1",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^2.6.2"
+  },
+  "scripts": {
+    "fix": "tslint --fix './*.ts{,x}'",
+    "lint": "tslint --format stylish './*.ts{,x}'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack && open ./index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "lint": "tslint '*.ts{,x}s'"
+}
